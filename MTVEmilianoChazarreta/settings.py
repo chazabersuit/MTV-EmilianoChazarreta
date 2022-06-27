@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'desafio'
+    'desafio',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MTVEmilianoChazarreta.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\CHAZA\Documents\Programacion\Proyectogit\MTV-EmilianoChazarreta\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
