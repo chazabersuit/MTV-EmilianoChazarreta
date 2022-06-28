@@ -17,3 +17,6 @@ def index(request):
     # render =  template.render({'lista_objetos':[alumno_uno,alumno_dos,alumno_tres]})
     # return HttpResponse(render)
     return render(request, 'index.html',{'lista_objetos':[alumno_uno,alumno_dos,alumno_tres]})
+
+def sobre_nosotros(request):
+    return render(request,'sobre_nosotros.html')
